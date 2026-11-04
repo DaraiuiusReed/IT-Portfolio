@@ -1,0 +1,264 @@
+
+# Windows 11 Troubleshooting Guide
+
+**Author:** Daraiuius Reed  
+**Portfolio:** IT Support and Technical Troubleshooting  
+**Operating System:** Windows 11  
+**Project Type:** Independent IT Portfolio Project  
+**Status:** In Progress
+
+---
+
+## Project Overview
+
+This project demonstrates my ability to identify, troubleshoot, document, and resolve common Windows 11 computer problems.
+
+The purpose is to practice real-world IT support procedures and develop professional technical documentation skills.
+
+## Technical Skills Demonstrated
+
+- Windows 11 troubleshooting
+- Hardware and software diagnostics
+- Network troubleshooting
+- Command Prompt fundamentals
+- Problem identification
+- Technical documentation
+- Customer support communication
+
+---
+
+## Troubleshooting Scenario 1: Computer Running Slowly
+
+**Problem:**
+
+A Windows 11 computer takes a long time to start and applications respond slowly.
+
+**Possible Causes:**
+
+- Too many startup applications
+- High CPU or memory usage
+- Insufficient storage space
+- Background applications
+- Pending Windows updates
+
+**Diagnostic Steps:**
+
+1. Press Ctrl + Shift + Esc to open Task Manager.
+2. Select Processes.
+3. Review CPU, Memory, and Disk usage.
+4. Identify applications using unusually high resources.
+5. Select Startup apps and review unnecessary startup programs.
+6. Open Settings and check Windows Update.
+
+**Potential Resolution:**
+
+Disable unnecessary startup applications, close unneeded programs, free storage space, and install applicable updates.
+
+**Verification:**
+
+Restart the computer and check whether startup time and application performance have improved.
+
+**Documentation:**
+
+Record the symptoms, diagnostic findings, changes made, and final result.
+
+**Status:** Practice scenario — not yet tested on a real device.
+
+---
+
+## Troubleshooting Scenario 2: Wi-Fi Not Connecting
+
+**Problem:**
+
+A Windows 11 computer cannot connect to a wireless network.
+
+**Possible Causes:**
+
+- Wi-Fi disabled
+- Incorrect password
+- Router connectivity problems
+- Network adapter problems
+- Outdated network drivers
+
+**Diagnostic Steps:**
+
+1. Confirm Wi-Fi is enabled.
+2. Check whether other devices can connect.
+3. Confirm the correct network and password.
+4. Restart the router if authorized.
+5. Run the Windows Network Troubleshooter.
+6. Open Command Prompt and run:
+
+ipconfig /all
+
+7. Review the network adapter information.
+
+**Potential Resolution:**
+
+Correct network settings, reconnect to the wireless network, or investigate adapter and driver problems.
+
+**Verification:**
+
+Confirm the computer connects and can access the internet.
+
+**Status:** Practice scenario — not yet tested on a real device.
+
+---
+
+## Troubleshooting Scenario 3: Computer Has No Sound
+
+**Problem:**
+
+The computer is powered on, but no audio can be heard.
+
+**Possible Causes:**
+
+- Muted volume
+- Incorrect output device
+- Audio driver problem
+- Windows audio service issue
+- Headphone or speaker connection issue
+
+**Diagnostic Steps:**
+
+1. Check the Windows volume setting.
+2. Confirm the correct output device is selected.
+3. Test with another speaker or headset.
+4. Run the Windows audio troubleshooter.
+5. Review audio devices in Device Manager.
+
+**Potential Resolution:**
+
+Select the correct output device, correct volume settings, or investigate the audio driver.
+
+**Verification:**
+
+Play a test sound and confirm audio works.
+
+**Status:** Practice scenario — not yet tested on a real device.
+
+---
+
+## Troubleshooting Scenario 4: Printer Not Printing
+
+**Problem:**
+
+A Windows 11 computer sends a print job, but the printer does not print.
+
+**Possible Causes:**
+
+- Printer disconnected
+- Incorrect printer selected
+- Paper or ink issue
+- Stuck print queue
+- Driver problem
+
+**Diagnostic Steps:**
+
+1. Confirm the printer is powered on.
+2. Check USB or wireless connectivity.
+3. Verify the correct printer is selected.
+4. Check for paper or ink errors.
+5. Review the print queue.
+6. Investigate the printer driver if necessary.
+
+**Potential Resolution:**
+
+Restore connectivity, clear an appropriate stuck print job, or resolve a driver issue.
+
+**Verification:**
+
+Print a test page and confirm successful output.
+
+**Status:** Practice scenario — not yet tested on a real device.
+
+---
+
+## Troubleshooting Scenario 5: Windows Update Failure
+
+**Problem:**
+
+Windows Update fails to download or install an update.
+
+**Possible Causes:**
+
+- Insufficient disk space
+- Internet connection problems
+- Windows Update service problems
+- Corrupted update files
+- Compatibility issues
+
+**Diagnostic Steps:**
+
+1. Check internet connectivity.
+2. Review available disk space.
+3. Open Settings.
+4. Navigate to Windows Update.
+5. Review the displayed error code.
+6. Run the Windows Update Troubleshooter.
+7. Research the error code using Microsoft documentation.
+
+**Potential Resolution:**
+
+Resolve the underlying issue and retry the update.
+
+**Verification:**
+
+Confirm Windows Update reports successful installation.
+
+**Status:** Practice scenario — not yet tested on a real device.
+
+---
+
+## Professional Documentation Standards
+
+For each real troubleshooting case:
+
+- Record the original problem.
+- Document diagnostic steps.
+- Record findings.
+- Explain the resolution.
+- Verify the result.
+- Protect customer information.
+
+Never claim a repair or resolution was completed unless it was actually performed and verified.
+
+---
+
+## Project Conclusion
+
+This project demonstrates foundational Windows 11 technical support knowledge, structured troubleshooting, and professional documentation.
+
+Future improvements will include additional troubleshooting scenarios, screenshots, and practical testing.
+############################################################################################################################################# 
+# Command-Line Practice and Documentation
+
+## 1. hostname
+**Purpose:** Displays the computer's device name.
+
+**What I learned:** This command helps identify which computer is being troubleshooted.
+
+## 2. whoami
+**Purpose:** Displays the currently signed-in Windows account.
+
+**What I learned:** This helps identify which user account is being used.
+
+## 3. ipconfig
+**Purpose:** Displays basic network configuration information.
+
+**What I learned:** This helps identify the computer's IPv4 address and other network details.
+
+## 4. ipconfig /all
+**Purpose:** Displays detailed network configuration information.
+
+**What I learned:** This helps troubleshoot DHCP, DNS, network adapters, and gateway information.
+
+## 5. systeminfo
+**Purpose:** Displays detailed information about the Windows computer.
+
+**What I learned:** This helps identify the Windows version, system model, memory, and other system details.
+
+## Practice Reflection
+I practiced using Windows Command Prompt commands to learn how to identify a computer, check user information, inspect network settings, and gather system information.
+
+These commands are useful tools for entry-level IT help desk troubleshooting.
